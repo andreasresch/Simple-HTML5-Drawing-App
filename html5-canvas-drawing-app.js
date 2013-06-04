@@ -378,7 +378,7 @@ var drawingApp = (function () {
 
 			// Add touch event listeners to canvas element
 			canvas.addEventListener("touchstart", press, false);
-			canvas.addEventListener("touchmove", drag, false);
+			canvas.addEventListener("touchmove", drag, true);
 			canvas.addEventListener("touchend", release, false);
 			canvas.addEventListener("touchcancel", cancel, false);
 		},
