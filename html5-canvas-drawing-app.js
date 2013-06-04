@@ -377,10 +377,10 @@ var drawingApp = (function () {
 			canvas.addEventListener("mouseout", cancel, false);
 
 			// Add touch event listeners to canvas element
-			canvas.addEventListener("touchstart", press, false);
-			canvas.addEventListener("touchmove", drag, true);
-			canvas.addEventListener("touchend", release, false);
-			canvas.addEventListener("touchcancel", cancel, false);
+//			canvas.addEventListener("touchstart", press, false);
+//			canvas.addEventListener("touchmove", drag, true);
+//			canvas.addEventListener("touchend", release, false);
+//			canvas.addEventListener("touchcancel", cancel, false);
 		},
 
 		// Calls the redraw function after all neccessary resources are loaded.
